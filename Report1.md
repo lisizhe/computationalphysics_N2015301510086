@@ -32,5 +32,9 @@ P1=plt.scatter(t1,N1)
 plt.legend(handles = [P1], labels = ['dt=0.1s'], loc = 'best')
 plt.show()
 ```
+
+
 ## 程序运行结果
 ![运行结果](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/demo.png?raw=true)
+
+## 欧乐法的分析介绍
