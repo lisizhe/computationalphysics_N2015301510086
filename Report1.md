@@ -4,7 +4,12 @@
 ***
 ## 题目表述
 ```
-The position of an object moving horizontally with a constant velocity,V is described by the equationdx/dt=V(1.9)Assuming that the velocity is a constant,say V=40m/s,use the Euler method to solve (1.9) for X as a function of time.Compare your result with the exact solution.
+The position of an object moving horizontally with a constant velocity,
+V is described by the equation
+dx/dt=V                       (1.9)
+Assuming that the velocity is a constant,say V=40m/s,
+use the Euler method to solve (1.9) for X as a function of time.
+Compare your result with the exact solution.
 ```
 ## 题目的python实现
 ```
