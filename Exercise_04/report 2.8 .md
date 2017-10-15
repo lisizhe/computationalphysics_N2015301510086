@@ -21,24 +21,23 @@ pygame.display.set_caption("你想要的标题")
 ```
 接下来定义相关变量
 ```
-BLUE=(255,255,255)
-GRAY=(192,192,192)
-canon=pygame.image.load('canon.png')
-bgm=pygame.image.load('bgm.jpg')
-G=10
-angle=math.pi/4
-canonv0=110
+White=(255,255,255)
+canon=pygame.image.load('duck.png') # 飞翔的鸭子
+bgm=pygame.image.load('sky.jpg') # 背景图片
+G=10 # 重力加速度
+angle=math.pi/3 # 发射角度
+canonv0=100 # 初速度
 canonvx=int(canonv0*math.cos(angle))
 canonvy=int(canonv0*math.sin(angle))
-canonx=10
-canony=868
-    
+canonx=10 # 初始X的位置
+canony=704 # 初始Y的位置
+    
 direction='up'
 ```
 之后运行游戏主循环
 ```
 while True:
-    DISPLAYS.fill(BLUE)
+    DISPLAYS.fill(White)
     if direction=='up':
         canonx=canonx+canonvx
         canony=canony-canonvy
@@ -51,8 +50,8 @@ while True:
     for event in pygame.event.get():
         if event.type==pygame.QUIT:
             pygame.quit()
-            sys.exit()
-            
-    pygame.display.update()
-    fpsClock.tick(FPS)
+            sys.exit() # 退出程序
+            
+    pygame.display.update() # 刷新屏幕
+    fpsClock.tick(FPS)
     ```
