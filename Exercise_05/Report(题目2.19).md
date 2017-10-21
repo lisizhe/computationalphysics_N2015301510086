@@ -73,3 +73,7 @@ plt.show()
 ```
 
 ## 程序运行结果
+![](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_05/Figure_1.png)
+
+## 结果分析
+我们可以看到上旋和下旋对球的运动有较为明显的影响。当球正旋时，球比在无旋情形下飞的更远。反之，当球逆旋时，球比在无旋情形下飞的更近。
