@@ -6,3 +6,4 @@
 - [X] [Exercise_03: 第三次作业 题目1.2](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_03/Report1(%E9%A2%98%E7%9B%AE1.2).md)
 - [X] [Exercise_04: 第四次作业 题目2.8](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_04/report%202.8%20.md)
 - [X] [Exercise_05: 第五次作业 题目2.19](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_05/Report(2.19).md)
+- [X] [Exercise_05: 第六次作业 讨论](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_06/report.md)
