@@ -14,30 +14,39 @@
 * ![](http://latex.codecogs.com/gif.latex?t_{i+1}=t_{i}+\Delat{t})
 
 ## Python 实现
+'''
 
-"""
-
-for i in range(0,1500):
-
-    W[i+1]=W[i]-((g/9.8)*math.sin(O[i])+0.5*W[i]-1.2*math.sin(2/3*t[i]))*T
-    O[i+1]=O[i]+W[i+1]*T
-    if O[i+1]<-math.pi:
-        O[i+1]=O[i+1]+2*math.pi
-    elif O[i+1]>math.pi:
-        O[i+1]=O[i+1]-2*math.pi
+ω=[0 for x in range(0,LIM)]
+θ=[0 for x in range(0,LIM)]
+t=[0 for x in range(0,LIM)]
+    
+ω[0]=0
+θ[0]=xita
+t[0]=0
+    
+g=9.8
+T=0.04
+    
+for i in range(0,LIM-1):
+    ω[i+1]=ω[i]-((g/L)*math.sin(θ[i])+Q*ω[i]-FD*math.sin(OMGD*t[i]))*T
+    θ[i+1]=θ[i]+ω[i+1]*T
+    if θ[i+1]<-math.pi:
+        θ[i+1]=θ[i+1]+2*math.pi
+    elif θ[i+1]>math.pi:
+         θ[i+1]=θ[i+1]-2*math.pi
     else:
-        O[i+1]=O[i+1]
+        θ[i+1]=θ[i+1]    
     t[i+1]=t[i]+T
-
-"""
+    
+'''
 
 ## 运行结果
-图一
-图二
-图三
-图四
-图五
-图六
+![](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_06/Figure_1.png)
+![](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_06/2.png)
+![](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_06/3.png)
+![](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_06/4.png)
+![](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_06/5.png)
+![](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_06/6.png)
 ## 结论
 驱动力对混沌系统的影响非常显著。事实上，随着驱动力从零逐渐增大，系统逐渐由规律变为混沌系统。
 
