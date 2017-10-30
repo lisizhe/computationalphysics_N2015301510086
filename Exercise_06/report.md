@@ -14,8 +14,7 @@
 * ![](http://latex.codecogs.com/gif.latex?t_{i+1}=t_{i}+\Delat{t})
 
 ## Python 实现
-'''
-
+```
 ω=[0 for x in range(0,LIM)]
 θ=[0 for x in range(0,LIM)]
 t=[0 for x in range(0,LIM)]
@@ -32,13 +31,12 @@ for i in range(0,LIM-1):
     θ[i+1]=θ[i]+ω[i+1]*T
     if θ[i+1]<-math.pi:
         θ[i+1]=θ[i+1]+2*math.pi
-    elif θ[i+1]>math.pi:
-         θ[i+1]=θ[i+1]-2*math.pi
-    else:
-        θ[i+1]=θ[i+1]    
+        elif θ[i+1]>math.pi:
+                θ[i+1]=θ[i+1]-2*math.pi
+        else:
+            θ[i+1]=θ[i+1]    
     t[i+1]=t[i]+T
-    
-'''
+```
 
 ## 运行结果
 ![](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_06/Figure_1.png)
