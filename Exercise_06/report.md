@@ -39,6 +39,9 @@ for i in range(0,LIM-1):
 ```
 
 ## 运行结果
+
+分别对不同的F，q和θ0作图，并给出相空间的对应图：
+
 ![](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_06/Figure_1.png)
 ![](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_06/2.png)
 ![](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_06/3.png)
