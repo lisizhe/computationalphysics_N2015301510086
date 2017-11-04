@@ -39,6 +39,37 @@ for i in range(0,LIM-1):
 通过循环生成数据，然后在循环中筛选数据并存入列表中。
 
 ## 运行结果
-![]()
-![]()
-![]()
+![](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_07/Figure_1.png)
+
+![](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_07/Figure_1-1.png)
+
+![](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_07/Figure_1-2.png)
+
+我们可以看出一些周期倍增的趋势……可是图中依然有一些凌乱的点。
+
+## 一些改良
+怎么办呢？我们采用如下方法：
+
+* 只记录300个周期之后的点
+
+追加判断条件：
+
+```
+if (t[i+1]>900*math.pi)
+```
+
+效果非常明显：
+
+![](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_07/Figure_1-5.png)
+
+![](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_07/Figure_1-4.png)
+
+![](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_07/Figure_1-6.png)
+
+可以清晰地观察到周期倍增的现象。
+
+## 参考资料：
+
+* [1]《计算物理》 by N.J.Giordano
+* [[2] Cathaya Liu的repositories](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/6th%20homework/report.md)
+
