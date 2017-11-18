@@ -9,3 +9,4 @@
 - [X] [Exercise_06: 第六次作业 讨论混沌现象](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_06/report.md)
 - [X] [Exercise_07: 第七次作业 对Poincare sections的探究](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_07/report.md)
 - [X] [Exercise_08: 第八次作业 题目3.31](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_08/report.md)
+- [X] [Exercise_09: 期中作业](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/mid-test/report.md)
