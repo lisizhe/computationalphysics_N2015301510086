@@ -9,7 +9,7 @@
 ![](https://github.com/Cathayaliu/computationalphysics_N2015301020026/blob/master/10th%20homework/5.gif)
 
 ## 代码
-
+[Here](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_10/runs.py)
 ## 运行结果
 ![](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_10/Figure_1-1.png)
 ![](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_10/Figure_1.png)
