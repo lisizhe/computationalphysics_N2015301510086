@@ -10,4 +10,5 @@
 - [X] [Exercise_07: 第七次作业 对Poincare sections的探究](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_07/report.md)
 - [X] [Exercise_08: 第八次作业 题目3.31](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_08/report.md)
 - [X] [Exercise_09: 期中作业](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/mid-test/report.md)
-- [X] [Exercise_08: 第九次作业 题目4.12](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_09/report.md)
+- [X] [Exercise_10: 第九次作业 题目4.12](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_09/report.md)
+- [X] [Exercise_11: 第十次作业 题目5.2](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_10/report.md)
