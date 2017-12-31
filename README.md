@@ -12,3 +12,4 @@
 - [X] [Exercise_09: 期中作业](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/mid-test/report.md)
 - [X] [Exercise_10: 第九次作业 题目4.12](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_09/report.md)
 - [X] [Exercise_11: 第十次作业 题目5.2](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/Exercise_10/report.md)
+- [X] [期末报告](https://github.com/lisizhe/computationalphysics_N2015301510086/blob/master/%E6%9C%9F%E6%9C%AB%E6%8A%A5%E5%91%8A-%E6%9D%8E%E6%80%9D%E5%93%B2.pdf)
